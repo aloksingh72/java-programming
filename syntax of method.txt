@@ -1,0 +1,26 @@
+Dated-14/Aug/2024
+Topic:- Syntax of Method
+
+Method Signature:-
+method name along with argument is called method signature.
+a method is called by the method signature.
+
+Method Declaration:- acces modifier,non-access modifier,return statement along method signature is called method declaration.
+
+Method Definition:-
+Method declaration + Method body = Method Definition.
+
+Important Points:---->
+1. One method must have only one access modifier will use.
+2. One method can have multiple non-access modifier at a time.
+3.There are not any sequence in writing access modifier and in non-access modifier.
+    for ex- public static void main(String[] args)
+                  OR
+           static public void main (String[] args)
+               OR
+           final synchronized strictfp static public void main(String[] args)
+
+Ques:-Design a method which will accept two inputs and it will return big number out of two.
+
+
+ 

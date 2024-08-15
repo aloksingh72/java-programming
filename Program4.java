@@ -1,4 +1,4 @@
-import java.util.scanner;
+import java.util.Scanner;
 
 class Big{
 public static void main(String[] args){

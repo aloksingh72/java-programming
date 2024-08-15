@@ -21,6 +21,7 @@ Employ e3 = new Employ();
 //e1.sal=234.98;
 e1.setValue("Mohan",123,234.87);
 e2.setValue("Sohan",1423,2634.87);
+e3.setValue("alok", 450000, 12947594.98);
 
 System.out.println(e1.name);
 System.out.println(e1.id);
@@ -29,6 +30,10 @@ System.out.println("=========");
 System.out.println(e2.name);
 System.out.println(e2.id);
 System.out.println(e2.sal);
+System.out.println("=========");
+System.out.println(e3.name);
+System.out.println(e3.id);
+System.out.println(e3.sal);
 
 
 

@@ -11,8 +11,8 @@ this.price=price;
 }
 public void getDetails(){
 System.out.println("The company name  of Laptop is:- " +Comp_name );
-System.out.println("Operating system is :-"+os);
-System.out.println("the price is :-"+price);
+System.out.println("Operating system is :- "+os);
+System.out.println("the price is :- "+price);
 }
 
 }

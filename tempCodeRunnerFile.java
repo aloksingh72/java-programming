@@ -1,0 +1,1 @@
+    char alpha = sc.next().charAt(0);

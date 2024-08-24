@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class CheckAlphabetVowel {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         
         // String[] vowel = {"a","e","i","o","u"};

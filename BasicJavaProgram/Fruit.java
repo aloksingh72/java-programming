@@ -10,6 +10,9 @@ this.price = price;
 this.weight = weight;
 
 }
+public Fruit(Fruit f1) {
+    //TODO Auto-generated constructor stub
+}
 public void getDetails(){
 
 System.out.println("the name is " +name);

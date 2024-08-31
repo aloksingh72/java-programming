@@ -202,6 +202,66 @@ public class DigitBasedProgram {
 
     }
 
+    public static void strongNumber(int n) {
+        int num = n;
+        int sum = 0;
+        while (n > 0) {
+            int digit = n % 10;
+            int i = 1;
+            int fact = 1;
+            while (i <= digit) {
+                fact = fact * i;
+
+                i++;
+            }
+            sum = sum + fact;
+            n = n / 10;
+
+        }
+        if (sum == num) {
+
+            System.out.println("It is a strong number");
+
+        } else {
+            System.out.println("It is not a strong number");
+        }
+
+    }
+
+    public static void reverseNumber(int n) {
+
+        int rev = 0;
+
+        while (n > 0) {
+            int digit = n % 10;
+            rev = rev * 10 + digit;
+
+            n = n / 10;
+
+        }
+        System.out.println("The reverse of a  number" + rev);
+
+    }
+
+    public static void plaindrome(int n) {
+
+        int num = n;
+        int rev = 0;
+        while (n > 0) {
+            int digit = n % 10;
+            rev = rev * 10 + digit;
+
+            n = n / 10;
+
+        }
+        if (rev == num) {
+            System.out.println("It is a Plaindrome Number");
+        } else {
+            System.out.println("It is not a Plaindrom Number");
+        }
+
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
@@ -219,7 +279,10 @@ public class DigitBasedProgram {
         // sumAllDigit(n);
         // sumAllEvenDigit(n);
         // factOfEachDigit(n);
-        sumOfFactorial(n);
+        // sumOfFactorial(n);
+        // strongNumber(n);
+        // reverseNumber(n);
+        plaindrome(n);
 
         sc.close();
 

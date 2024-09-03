@@ -282,7 +282,7 @@ public class DigitBasedProgram {
         // sumOfFactorial(n);
         // strongNumber(n);
         // reverseNumber(n);
-        plaindrome(n);
+        // plaindrome(n);
 
         sc.close();
 

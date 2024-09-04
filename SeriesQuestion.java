@@ -58,10 +58,10 @@ public class SeriesQuestion {
         double sum = 0;
         while(i<=100){
             if (i%2==0){
-                sum =sum +i;
+                sum =sum -i;
             }
             else{
-                sum =sum -i;
+                sum =sum +i;
             }
             i++;
         }
@@ -78,13 +78,13 @@ public class SeriesQuestion {
     }
 
     public static void main(String[] args) {
-        seqProg5();
-        seqProg6();
-        seqProg7();
+        //seqProg5();
+       // seqProg6();
+        //seqProg7();
         seqProg8();
-        seqProg9();
-        seqProg10();
-        seqProg11();
+        //seqProg9();
+        //seqProg10();
+        //seqProg11();
 
     }
 

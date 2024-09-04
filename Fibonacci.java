@@ -8,7 +8,7 @@ class Fibonacci {
 
         System.out.print(n1 + " " + n2 + " ");
         int i = 1;
-        while (i <= n - 2) {
+        while (i <= n -2) {
             int n3 = n1 + n2;
             System.out.print(n3 + " ");
             n1 = n2;

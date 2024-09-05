@@ -67,7 +67,7 @@ class StringBasedProgram {
     }
 
     public static void checkVowelInString(String s1) {
-
+        s1 = s1.toLowerCase();
         int i = 0;
         
         int count = 0;

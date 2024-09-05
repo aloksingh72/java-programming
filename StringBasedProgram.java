@@ -75,10 +75,12 @@ class StringBasedProgram {
         while (i < s1.length()) {
             char ch = s1.charAt(i);
 
-        
-            if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' ||
-                    ch == 'i' || ch == 'I' || ch == 'o' || ch == 'O' ||
-                    ch == 'u' || ch == 'U') {
+           if( ch == 'a'  || ch == 'e'  ||
+            ch == 'i' || ch == 'o'  ||
+            ch == 'u' ){
+            // if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' ||
+            //         ch == 'i' || ch == 'I' || ch == 'o' || ch == 'O' ||
+            //         ch == 'u' || ch == 'U') {
                 count = count + 1;
 
             }

@@ -71,7 +71,7 @@ public class SeriesQuestion {
         int i =1;
         double sum = 0;
         while(i<=99){
-            sum =sum +(1/(i*(i+1)));
+            sum =sum +(1.0/(i*(i+1)));
             i++;
         }
         System.out.println("the sum is " + sum);
@@ -81,10 +81,10 @@ public class SeriesQuestion {
         //seqProg5();
        // seqProg6();
         //seqProg7();
-        seqProg8();
+        //seqProg8();
         //seqProg9();
         //seqProg10();
-        //seqProg11();
+        seqProg11();
 
     }
 

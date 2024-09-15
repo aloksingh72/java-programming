@@ -25,13 +25,9 @@ public class PatternProgram {
 		//pattern14(n);
 		//pattern15(n);
 		//pattern16(n);
-		//pattern17(n);
+		pattern17(n);
 		//pattern18(n);
-		pattern19(n);
-		//pattern20(n);
-		//pattern21(n);
-		//pattern22(n);
-		//pattern23(n);
+		
 sc.close();
 	}
 
@@ -204,7 +200,7 @@ sc.close();
 	 *      
 	 *      }
 	 *      System.out.println();
-	 *       
+	 *      
 	 * }
 	 * }
 	 * 
@@ -260,26 +256,6 @@ sc.close();
 				System.out.print("* ");
 			}
 			star--;
-			System.out.println();
-		}
-	}
-	public static void pattern18(int n) {
-		int num =n;
-		for(int i=1;i<=n;i++) {
-			for(int j=1;j<=num;j++) {
-				System.out.print(j+" ");
-			}
-			num--;
-			System.out.println();
-		}
-	}
-	public static void pattern19(int n) {
-		int num =n;
-		for(int i=1;i<=n;i++) {
-			for(int j=1;j<=num;j++) {
-				System.out.print(i+" ");
-			}
-			num--;
 			System.out.println();
 		}
 	}

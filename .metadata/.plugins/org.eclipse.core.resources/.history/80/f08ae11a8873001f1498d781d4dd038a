@@ -30,14 +30,8 @@ public class PatternProgram {
 		//pattern19(n);
 		//pattern20(n);
 		//pattern21(n);
-		//pattern22(n);
+		pattern22(n);
 		//pattern23(n);
-		//pattern24(n);
-		//pattern25(n);
-		pattern26(n);
-		//pattern27(n);
-		//pattern28(n);
-		
 sc.close();
 	}
 
@@ -310,11 +304,11 @@ sc.close();
 		}
 	}
 	public static void pattern22(int n) {
-		int num =1;
+		int num =n;
 		int space=n-1;
 		for(int i=1;i<=n;i++) {
 			for(int j=1;j<=space;j++) {
-				System.out.print("  ");
+				System.out.print(" ");
 			}
 			for(int j=1;j<=num;j++) {
 				System.out.print(j+" ");
@@ -325,89 +319,7 @@ sc.close();
 			System.out.println();
 		}
 	}
-	public static void pattern23(int n) {
-		int star =1;
-		int space=n-1;
-		for(int i=1;i<=n;i++) {
-			for(int j=1;j<=space;j++) {
-				System.out.print("  ");
-			}
-			for(int j=1;j<=star;j++) {
-				System.out.print("* ");
-			}
-			star+=2;
-			space--;
-			System.out.println();
-		}
-	}
-	public static void pattern24(int n) {
-		int star =2*n-1;
-		int space =0;
-		for(int i =1;i<=n;i++) {
-			for(int j=1;j<=space;j++) {
-				System.out.print("  ");
-			}
-			for(int j=1;j<=star;j++) {
-				System.out.print("* ");
-			}
-			star-=2;
-			space++;
-		System.out.println();
-		}
-		
-	}
-	public static void pattern25(int n) {
-		int star =1;
-		int space = n-1;
-		for(int i=1;i<=n;i++) {
-			for(int j=1;j<=space;j++) {
-				System.out.print("  ");
-			}
-			for(int j=1;j<=star;j++) {
-				System.out.print("*   ");
-			}
-			star++;
-			space--;
-			System.out.println();
-			
-		}
-	}
 	
-	public static void pattern26(int n) {
-		int star =n;
-		int space =0;
-		for (int i=1;i<=n;i++) {
-			for(int j=1;j<=space;j++) {
-				System.out.print("  ");
-			}
-			for(int j=1;j<=star;j++) {
-				System.out.print("*   ");
-			}
-			star--;
-			space++;
-			System.out.println();
-		}
-	}
-	public static void pattern27(int n) {
-		int star =1;
-		int mid =n/2+1;
-		for(int i =1;i<=n;i++) {
-			for(int j=1;j<=star;j++) {
-				System.out.print("* ");
-				if(i<=mid) {
-					
-					star++;
-					
-				}
-				else {
-					star--;
-					
-				}
-				
-			}
-			System.out.println();
-		}
-	}
 	
 	
 

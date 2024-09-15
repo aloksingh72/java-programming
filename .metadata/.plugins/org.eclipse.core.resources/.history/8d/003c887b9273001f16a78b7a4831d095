@@ -34,8 +34,8 @@ public class PatternProgram {
 		//pattern23(n);
 		//pattern24(n);
 		//pattern25(n);
-		pattern26(n);
-		//pattern27(n);
+		//pattern26(n);
+		pattern27(n);
 		//pattern28(n);
 		
 sc.close();

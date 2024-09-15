@@ -33,8 +33,8 @@ public class PatternProgram {
 		//pattern22(n);
 		//pattern23(n);
 		//pattern24(n);
-		//pattern25(n);
-		pattern26(n);
+		pattern25(n);
+		//pattern26(n);
 		//pattern27(n);
 		//pattern28(n);
 		
@@ -373,41 +373,6 @@ sc.close();
 		}
 	}
 	
-	public static void pattern26(int n) {
-		int star =n;
-		int space =0;
-		for (int i=1;i<=n;i++) {
-			for(int j=1;j<=space;j++) {
-				System.out.print("  ");
-			}
-			for(int j=1;j<=star;j++) {
-				System.out.print("*   ");
-			}
-			star--;
-			space++;
-			System.out.println();
-		}
-	}
-	public static void pattern27(int n) {
-		int star =1;
-		int mid =n/2+1;
-		for(int i =1;i<=n;i++) {
-			for(int j=1;j<=star;j++) {
-				System.out.print("* ");
-				if(i<=mid) {
-					
-					star++;
-					
-				}
-				else {
-					star--;
-					
-				}
-				
-			}
-			System.out.println();
-		}
-	}
 	
 	
 

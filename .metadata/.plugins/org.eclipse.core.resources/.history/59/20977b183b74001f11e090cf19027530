@@ -458,9 +458,6 @@ sc.close();
 			System.out.println();
 		}
 	}
-	public static void pattern30(int n) {
-		
-	}
 	 
 	
 

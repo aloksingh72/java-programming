@@ -1,0 +1,24 @@
+package Recursion;
+
+import java.util.Scanner;
+
+public class CheckPlaindrome {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the number:");
+		int n = sc.nextInt();
+		
+		checkPlaindrome(n);
+		
+		
+		sc.close();
+		
+
+	}
+	public static void checkPlaindrome(int n) {
+		
+		
+	}
+
+}

@@ -11,13 +11,14 @@ public class FactorialRecursion {
 		int n = sc.nextInt();
 		
 		factorialRecursion(n,1);
+		System.out.println(fact);
 
 		sc.close();
 	}
 	
 	
 	static int fact=1;
-//    static int i=1;
+      
     
 	public static void factorialRecursion(int n,int i) {
 		
@@ -25,18 +26,8 @@ public class FactorialRecursion {
 			fact = fact*i;
 			
 			factorialRecursion(n,i+1);
-			System.out.println(fact);
-			
-			
-			
-			
+				
 		}
-		
-	
-		
-		
-		
-		
 	}
 
 }

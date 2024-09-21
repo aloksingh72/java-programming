@@ -6,7 +6,7 @@ public class SumOfNumber1to100 {
 
 	public static void main(String[] args) {
 		
-		//sumOfNumber(1,0);
+		sumOfNumber(1,0);
 		sumofSquareofNumber(1,0);
 		
 		

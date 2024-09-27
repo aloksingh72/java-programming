@@ -17,10 +17,19 @@ public class CreateFile {
 			System.out.println(e.getMessage());
 			System.out.println("file is not created");
 			
+			----->Method-2
+			File f1 =new File("D:\\Documents\\FileHandling\\abc.mp4");
+		try {
+			f1.createNewFile();
+			System.out.println("file created successful");
+		}catch(Exception e) {
+			System.out.println(e.getMessage());
+			System.out.println("file is not created");
+			
 			
 		}
 		*/
-		//--->Method-2
+		//--->Method-3
 //		File f1 = new File("D:\\Documents\\FileHandling\\xyz.txt");
 		FileWriter fw = null;
 		try {

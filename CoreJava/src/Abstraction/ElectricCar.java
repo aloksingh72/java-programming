@@ -1,0 +1,36 @@
+package Abstraction;
+
+public class ElectricCar extends Car {
+	
+	int volt;
+	ElectricCar(){
+		
+	}
+	ElectricCar(String name,double price,int hp,int volt){
+		super(name,price,hp);
+		this.volt = volt;
+	
+		
+	}
+	
+	public void start() {
+		System.out.println("Start the vehicle");
+	}
+	
+	
+	public void drive() {
+		System.out.println("Drive the Vehicle");
+	}
+	
+	public void openGate() {
+		System.out.println("Open gate in car");
+	}
+public void getDetails() {
+		
+		System.out.println("the name of car is"+name);
+		System.out.println("the name of car is"+price);
+		System.out.println("the name of car is"+hp);
+	System.out.println("the volt of electric car is "+volt+" Volt");
+		}
+
+}

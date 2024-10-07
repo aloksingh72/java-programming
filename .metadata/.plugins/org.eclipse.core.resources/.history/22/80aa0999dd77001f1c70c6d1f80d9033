@@ -1,0 +1,33 @@
+package Recursion;
+//Dated -> 21/09/2024/Saturday
+
+
+
+public class NumberRecursion {
+
+	public static void main(String[] args) {
+		
+		
+		//printNumber1to100(1);
+		printNumber100to1(100);
+		
+
+	}
+	public static void printNumber1to100(int n) {
+		
+		if(n<=100) {
+			System.out.println("n  from if is :"+n);
+			printNumber1to100(n+1);
+		}
+		
+	}
+	
+	public static void printNumber100to1(int n) {
+		if(n>=1) {
+			System.out.println(n);
+			printNumber100to1(n-1);
+		}
+		
+	}
+
+}

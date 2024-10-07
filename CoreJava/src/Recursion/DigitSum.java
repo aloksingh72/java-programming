@@ -1,0 +1,33 @@
+package Recursion;
+
+import java.util.Scanner;
+
+public class DigitSum {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the digit:");
+		int n = sc.nextInt();
+		
+		digitSum(n);
+		System.out.println(sum);
+		
+		sc.close();
+
+	}
+	static int rem =0;
+	static int sum =0;
+	public static void digitSum(int n) {
+		
+	if(n>0) {
+		rem = n%10;
+		sum = sum+rem;
+		n=n/10;
+		
+		digitSum(n);
+		
+	}
+		
+	}
+
+}

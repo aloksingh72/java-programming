@@ -1,0 +1,9 @@
+package Abstraction;
+
+public abstract class Car extends Vehicle {
+	
+	
+	public abstract void openGate();
+	
+
+}

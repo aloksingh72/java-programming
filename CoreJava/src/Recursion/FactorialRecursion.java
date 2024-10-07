@@ -1,0 +1,33 @@
+package Recursion;
+
+import java.util.Scanner;
+
+public class FactorialRecursion {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the value");
+		int n = sc.nextInt();
+		
+		factorialRecursion(n,1);
+		System.out.println(fact);
+
+		sc.close();
+	}
+	
+	
+	static int fact=1;
+      
+    
+	public static void factorialRecursion(int n,int i) {
+		
+		if(i<=n) {
+			fact = fact*i;
+			
+			factorialRecursion(n,i+1);
+				
+		}
+	}
+
+}

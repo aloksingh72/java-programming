@@ -1,0 +1,27 @@
+package Abstraction;
+
+public abstract class Car extends Vehicle {
+	String name;
+	double price;
+	int hp;
+	
+	Car(){
+		
+	}
+	Car(String name,double price,int hp){
+		this.name = name;
+		this.price = price;
+		this.hp= hp;
+		
+	}
+	
+	public abstract void openGate();
+	
+	public void drift() {
+		System.out.println("Car will Drift");
+	}
+	
+	
+	
+
+}

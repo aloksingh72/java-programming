@@ -1,0 +1,27 @@
+package Recursion;
+
+import java.util.Scanner;
+
+public class TableRecursion {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		tableRecursion(n);
+		
+		
+		sc.close();
+
+	}
+	
+	public static void tableRecursion(int n) {
+		int i=1;
+		if(n<=10) {
+			System.out.println(n*i);
+			i++;
+			tableRecursion(n);
+		}
+	}
+
+}

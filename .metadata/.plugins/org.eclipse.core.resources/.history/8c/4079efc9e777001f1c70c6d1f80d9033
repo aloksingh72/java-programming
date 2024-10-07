@@ -1,0 +1,28 @@
+package Recursion;
+
+
+
+public class SumOfNumber1to100 {
+
+	public static void main(String[] args) {
+		
+		sumOfNumber(1,0);
+		
+		
+	}
+	
+	public static void sumOfNumber(int n,int sum) {
+		sumOfNumber(n+1,sum +n);
+		
+		if(n>100) {
+			 
+			 System.out.println("sum is "+sum);
+			return;	
+			 
+			
+		}
+	
+	}
+	
+
+}

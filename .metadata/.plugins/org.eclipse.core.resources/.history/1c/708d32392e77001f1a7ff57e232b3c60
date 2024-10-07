@@ -1,0 +1,17 @@
+package Abstraction;
+
+public class ElectricCar extends Car {
+	public void start() {
+		System.out.println("Start the vehicle");
+	}
+	
+	
+	public void drive() {
+		System.out.println("Drive the Vehicle");
+	}
+	
+	public void openGate() {
+		System.out.println("Open gate in car");
+	}
+
+}

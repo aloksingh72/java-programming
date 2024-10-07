@@ -1,0 +1,12 @@
+package Abstraction;
+
+public abstract class Car extends Vehicle {
+	
+	
+	public abstract void openGate();
+	
+	public void drift() {
+		System.out.println("Car will Drift");
+	}
+
+}
